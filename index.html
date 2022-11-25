@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 10</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+<div><h1> Lista de Nomes</h1></div>
+
+    <div>
+<ul style="font-size:40 px ;">
+
+    <li> Lucas</li>
+    <li> Beto</li>
+    <li> Liz</li>
+    <li> Dom</li>
+    <li> Ravi</li>
+
+    <button id="btn">clique aqui</button>
+
+
+
+</ul>
+
+    </div>
+  
+  <h1 id="nome"></h1>
+  <h1 id="saudacao"> Olá Seja Bem Vindo (a)</h1>
+
+  
+  <script>
+    const input = prompt("Digite Seu Nome: ");
+    const nome = $('#nome');
+    nome.hide();
+    nome.text(input);
+
+    $("h1"). fadeOut("2000"). fadeIn("3000")
+    $("li"). remove()
+    $("div"). remove()
+    
+
+    </script>
+
+    
+    
+</body>
+</html>
